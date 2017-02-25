@@ -1,15 +1,11 @@
-Devbridge Group accelerates software to market for enterprise clients through dedicated product teams, user experience and software engineering expertise.
+#Ajax Paginated Autocomplete for jQuery
 
-[www.devbridge.com](http://www.devbridge.com/)
-
-#Ajax Autocomplete for jQuery
-
-Ajax Autocomplete for jQuery allows you to easily create
-autocomplete/autosuggest boxes for text input fields.
+Ajax Paginated Autocomplete for jQuery allows you to easily create
+autocomplete/autosuggest boxes for text input fields, while giving you the option to paginating them.
 
 Has no dependencies other than jQuery.
 
-The standard jquery.autocomplete.js file is around 13KB when minified.
+The standard jquery.paginatedautocomplete.js file is around 23KB when minified.
 
 ##API
 
