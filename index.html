@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Ehsan Korhani Paginated Autocomplete</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="content/bootstrap.min.css">
+    <link rel="stylesheet" href="content/paginated-autocomplete.min.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Paginated Autocomplete Demo</h2>
+        <form role="form">
+            <div class="row">
+                <div class="form-group col-xs-12 col-md-5">
+                    <label for="autocomplete-control">Country</label>
+                    <input type="text" id="autocomplete-control" class="form-control" placeholder="Search..." />
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-xs-12 col-md-5">
+                    <label id="selction-ajax"></label>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script src="scripts/lib/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="scripts/plugins/jquery.paginatedautocomplete.min.js"></script>
+    <script type="text/javascript" src="scripts/src/countries.js"></script>
+    <script type="text/javascript" src="scripts/app.js"></script>
+</body>
+</html>
