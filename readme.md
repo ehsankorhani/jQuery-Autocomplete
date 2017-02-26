@@ -7,6 +7,11 @@ Has no dependencies other than jQuery.
 
 The standard jquery.paginatedautocomplete.js file is around 23KB when minified.
 
+##Status
+Functionality of plugin: Majority of work is final. Some minro features need to be tested and corrected.
+Demo: Work in progress.
+Help and About: Work in progress.
+
 ##API
 
 * `$(selector).autocomplete(options);`
