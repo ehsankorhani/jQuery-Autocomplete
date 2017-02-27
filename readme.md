@@ -48,6 +48,16 @@ Help and About: Work in progress.
 * `preventBadQueries`: Boolean value indicating if it should prevent future Ajax requests for queries with the same root if no results were returned. E.g. if `Jam` returns no suggestions, it will not fire for any future query that starts with `Jam`. Default `true`.
 * `autoSelectFirst`: if set to `true`, first item will be selected when showing suggestions. Default value `false`.
 * `onHide`: `function (container) {}` called before container will be hidden
+* `query`: The name of the request parameter that contains the query.
+* `value`: ID value in JSON object.
+* `text`: Searchable Name value in JSON object.
+* `header`: Header JSON object. Constructs the header of the list. eg. [{ 'title': 'Name', 'width': 'auto' }].
+* `showHeader`: Whether to show or hide the header. Default: `false`.
+* `suggestionClass`: A CSS class to adjust the width of suggestion container.
+* `searchType`: Valid values are: `startswith`, `contains`, `endswith`.
+* `pageSize`: Indicates number of records per page.
+* `caseSensitive`: Case-sensitivity of search.
+* `moreResultMessage`: Text to be shown for the more result link. Default: `More Results...`.
 
 ###Presentation Settings
 * `beforeRender`: `function (container, suggestions) {}` called before displaying the suggestions. You may manipulate suggestions DOM before it is displayed.
